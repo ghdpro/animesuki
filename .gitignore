@@ -1,0 +1,14 @@
+# Python
+*.pyc
+
+# Node
+node_modules
+
+# Coverage
+.coverage
+
+# JetBrains
+.idea
+
+# Configuration with secrets/passwords
+.env
