@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bootstrap": "4.*",
+    "jquery": "3.*",
+    "popper.js": "1.*",
+    "@fortawesome/fontawesome-free": "5.*"
+  },
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "url": "https://github.com/ghdpro/animesuki"
+  }
+}
