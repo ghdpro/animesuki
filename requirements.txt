@@ -2,5 +2,6 @@ Django[argon2]==3.0.8
 django-debug-toolbar==2.2
 django-allauth==0.42.0
 django-redis==4.12.1
+django-template-toolkit==0.1.2
 psycopg2-binary==2.8.5
 sentry-sdk==0.16.1

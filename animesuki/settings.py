@@ -76,6 +76,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',  # Required for django-allauth
     'allauth',
     'allauth.account',
+    'toolkit',
     'core',
 ]
 

@@ -18,6 +18,26 @@
 </head>
 <body>
 
+{% include '_nav.html' %}
+
+<main class="container rounded">
+    {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}" role="alert">{{ message }}</div>
+    {% endfor %}
+
+    {% block content %}
+    {% endblock content %}
+</main>
+
+<footer class="container text-center">
+    <small>Copyright &copy; 2002-{% now "Y" %} AnimeSuki.com</small>
+    <h4>
+        <a href="https://github.com/ghdpro/animesuki"><i class="fab fa-github fa-fw"></i></a>
+        <a href="https://twitter.com/AnimeSuki"><i class="fab fa-twitter fa-fw"></i></a>
+        <a href="https://www.reddit.com/r/AnimeSuki/"><i class="fab fa-reddit-alien fa-fw"></i></a>
+    </h4>
+</footer>
+
 {% block javascript %}
 <script src="{% static 'js/jquery.min.js' %}?v3.5.1"></script>
 <script src="{% static 'js/popper.min.js' %}?v1.16.1"></script>
