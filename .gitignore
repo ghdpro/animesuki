@@ -12,3 +12,6 @@ node_modules
 
 # Configuration with secrets/passwords
 .env
+
+# Commit ID
+templates/id.html

@@ -5,3 +5,4 @@ django-redis==4.12.1
 django-template-toolkit==0.1.2
 psycopg2-binary==2.8.5
 sentry-sdk==0.16.1
+fabric==2.5.0
