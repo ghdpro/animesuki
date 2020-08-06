@@ -49,9 +49,9 @@ if 'email' in config:
         SERVER_EMAIL = config.get('email', 'server_email')
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
+STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
-)
+]
 if 'static_root' in config['DEFAULT']:
     STATIC_ROOT = config.get('DEFAULT', 'static_root')
 else:
